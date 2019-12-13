@@ -53,3 +53,20 @@ describe('linkedList', function() {
 
   // add more tests here to test the functionality of linkedList
 });
+
+
+
+
+//THink of head and tail as pointers, they're not properties. They just point to the nodes.
+
+
+
+target = 5
+
+list = {
+  value: 4,
+  next: {
+    value: 5,
+    next: null
+  }
+}
